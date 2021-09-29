@@ -14,11 +14,11 @@ app.service('localdb', function(){
                 subSer:[
                     {
                         name:'PHP Web Development',
-                        description:'We believe in serving what is best for our customer, accordingly to the need for user. This enables us to have knowledge of different web developing style and methods. Not limited to few methods and techniques we engage in all type of Softwares & services. PHP is one of the high end method to develop efficient user friendly websites.',
+                        description:'PHP-based apps are cross-platform web applications that offer a flexible development strategy that allows you to easily expand the functionality and coverage of the applications.',
                     },
                     {
                         name:'Wordpress Web Development',
-                        description:'Most common & widely used software to design is Wordpress. Trust worthy designing method to provide stability, stress free handling of website.'
+                        description:'Wordpress is the most well-known and widely used design programme. In terms of design, WordPress-based apps are inherently easy and adaptable. WordPress apps are used to develop W3C-compliant and SEO-friendly applications.'
                     },
                     {
                         name:'JavaScript Frameworks-based Web Development',
@@ -43,23 +43,23 @@ app.service('localdb', function(){
                 subSer:[
                     {
                         name:"Responsive Web Design",
-                        description:"Responsive website gives you freedom to be used either on laptops or on your mobile phones. These designs are out of the box ideas to take out the stress for new technology user and have more grasp over market & future potentials."
+                        description:"A responsive website allows you to use it on either computers or mobile phones. These designs are out-of-the-box concepts to relieve stress for new technology users and gain a better understanding of the market and future potentials."
                     },
                     {
                         name:"Dynamic Web Design",
-                        description:"Fast Digitalized generation spent most of the time on web surfing. And high speed connectivity makes it soothing for all. To save time and effort, In dynamic web designing we use smart web Intel to have a healthy and stress free access throughout the website."
+                        description:"The rapidly digitalized generation spend the majority of their time perusing the web. And the high-speed connectivity makes it relaxing for everyone. To save time and effort, we utilise smart web Intel in dynamic web design to provide a healthy and stress-free experience throughout the website."
                     },
                     {
                         name:"Static Web Design",
-                        description:"Number of user requires customized business profiles to have their name in market to match the need of consumers. Simple and ideal choice would be static web designing. Simple but effective, simplicity behold the beauty of business."
+                        description:"A large number of users want personalised company profiles in order to have their name in the market and meet the needs of customers. Static site design is a simple and excellent option. The beauty of business is its simplicity, which is simple yet effective."
                     },
                     {
                         name:"Web Portal Design",
-                        description:"A Company Cannot run without Employees. company require management skills and Application to store useful data. Online service gives you spacefic location on internet for keeping which can be accesible for the employeesfrom anywhere through internet. To make sure these arrangements we also provide Web Portal Service for client working in backend."
+                        description:"A business cannot function without employees. To keep relevant data, the firm need management skills and an application. Online services provide you with a spacefic place on the internet for storing information that employees may access from anywhere over the internet. To ensure that these arrangements are met, we additionally provide Web Portal Service for clients who operate in the backend."
                     },
                     {
                         name:"Custom Web design",
-                        description:"No two businesses are same then why should they have same type of websites. Different client require customized, tailored web designs to meet the need of every type of user. In order to achieve so, we push ourselves to deliver the best."
+                        description:"Because no two businesses are the same, why should they have the same sort of website? To suit the needs of every sort of user, different clients demand bespoke, personalised web designs. In order to do so, we push ourselves to be the best."
                     },
                 ]
             },
@@ -75,9 +75,17 @@ app.service('localdb', function(){
                 ],
                 subSer:[
                     {
-                        name:"content missing",
+                        name:"Windows App Developement",
                         description:"content missing"
-                    }
+                    },
+                    {
+                        name:"Linux App Developement",
+                        description:"content missing"
+                    },
+                    {
+                        name:"iMac App Development",
+                        description:"content missing"
+                    },
                 ]
             },
             {
