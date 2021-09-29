@@ -1,0 +1,229 @@
+<div ng-controller="homeCtrl">
+  <div style="position:relative;">
+    <section class="bg-primary" ng-init="playAnim()">
+      <div class="container col-xxl-8 px-4 py-5 ">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 mb-4">
+            <img src="images/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+              width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <div class="mb-3">
+              <img id="front_logo" src="images/logo1.png">
+              <span class="font-italic text-white" style="font-size: 35px;">IntraSand</span>
+            </div>
+            <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Web Services</h1>
+
+            <p class="lead text-white">Unique ideas and collection of distinctive Web design, mobile apps, E-Commerce
+              websites and other Web services to serve our clients.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-light btn-lg px-4 me-md-2">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- /hero area -->
+
+  <!-- about us -->
+
+  <div class="px-4 py-5 text-center bg-light">
+    <h2 class="section-title">About Us</h2>
+    <div class="col-lg-8 mx-auto">
+      <p class="lead mb-4">IntraSand is an emerging industry in designing the best featured and professional website. We
+        excel in making completely customized, new technology based perfectly blended with fresh ideas websites,
+        E-commerce and mobile applications to give an extra edge to your business. We believe in providing support and
+        services for all type of business to help them achieve desired dreams.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary bg-primary btn-lg px-4 gap-3">More Info</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- about us -->
+
+  <!-- services -->
+  <section class="section position-relative" style="background:#391085;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-white">Services</h2>
+        </div>
+        <div class="col-lg-10 mx-auto text-center mb-4">
+          <p class="lead text-white">We offer high end web- designing & development And other web
+            services to our clients.</p>
+        </div>
+        <div class="col-md-4 mb-4" ng-repeat="srvc in services">
+          <div class="card hover-shadow shadow" style="min-height: 450px;  ">
+            <div class="card-body text-center px-4 py-5">
+              <i class="bi {{srvc.icon}} icon mb-4 d-inline-block text-light "></i>
+              <h4 class="mb-4 section-title text-dark">{{srvc.name}}</h4>
+              <p class="lead" style="font-size:medium">{{srvc.description[0]}}</p>
+              <a href="#!/service_detail/{{srvc.name}}"><button class="btn btn-primary btn-lg px-4"
+                  style="background: #73d13d;">Know More</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /services -->
+
+  <!-- portfolio -->
+
+  <div class="px-4 py-5 bg-light">
+    <div class="text-center">
+      <h2 class="pb-2">Our Previous Projects</h2>
+      <section class="section position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <article class="card hover-shadow shadow">
+                <img class="rounded card-img-top" src="images/blog/post-5.jpg" alt="post-thumb">
+                <div class="card-body">
+                  <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5
+                      Million</a>
+                  </h4>
+                  <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <article class="card hover-shadow shadow">
+                <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
+                <div class="card-body">
+                  <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5
+                      Million</a>
+                  </h4>
+                  <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <article class="card hover-shadow shadow">
+                <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
+                <div class="card-body">
+                  <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5
+                      Million</a>
+                  </h4>
+                  <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- portfolio -->
+
+  <!-- testimonial -->
+  <section class="section bg-primary position-relative testimonial-bg-shapes">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-white mb-5">Clients</h2>
+        </div>
+        <div class="col-lg-10 mx-auto testimonial-slider">
+          <!-- slider-item -->
+          <div class="text-center testimonial-content">
+            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+            <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
+              in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-4.png"
+              alt="client-image">
+            <h4 class="text-white">Onkar Sharma</h4>
+            <h6 class="text-light mb-4">CEO, Founder</h6>
+          </div>
+          <!-- slider-item -->
+          <div class="text-center testimonial-content">
+            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+            <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
+              in
+              voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.</p>
+            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-5.png"
+              alt="client-image">
+            <h4 class="text-white">Yatish Chonkar</h4>
+            <h6 class="text-light mb-4">CEO, Founder</h6>
+          </div>
+          <!-- slider-item -->
+          <div class="text-center testimonial-content">
+            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+            <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
+              in
+              voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.</p>
+            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-6.png"
+              alt="client-image">
+            <h4 class="text-white">Mohd. Shahzain Hussain</h4>
+            <h6 class="text-light mb-4">CEO, Founder</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bg shapes -->
+    <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+    <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+    <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+    <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+  </section>
+  <!-- /testimonial -->
+
+  <div class="bg-light">
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <div class="col-8 mx-auto">
+            <img src="images/contact.png" style="width: 100%; height: auto;">
+          </div>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="row">
+            <h3 class="mb-5">If Any Query ? Send a Message</h3>
+            <div class="col-md-6 mb-4">
+              <input type="text" class="form-control" placeholder="Full Name">
+            </div>
+            <div class="col-md-6 mb-4">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+            <div class="col-12 mb-4">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-12 mb-4">
+              <textarea type="textarea" class="form-control" style="height:80px" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12 mb-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" checked>
+                <label class="form-check-label" for="gridCheck">
+                  I agree to the Term & Conditions.
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary form-control">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
