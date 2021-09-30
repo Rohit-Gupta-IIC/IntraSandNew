@@ -12,35 +12,17 @@
     <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
   </section>
 
-
-  <!--   <div ng-repeat="sr in services" class="py-3" ng-style="{'background-color':'{{sr.color}}'}" >
-    <div class="container row {{sr.reverse}} align-items-center py-3">
-      <div class="col-sm-12 col-lg-6">
-        <img src="images/services/{{sr.img}}" class="d-block img-fluid" alt="Image" width="400" height="auto" loading="lazy">
-      </div>
-      <div class="col-sm-12 col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3 ">{{sr.name}}</h1>
-        <p class="lead">{{sr.description[1]}}</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a href="#!/service_detail/{{sr.name}}"><button type="button" class="btn btn-outline-primary btn-md px-4">Know More</button></a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <div ng-repeat="sr in services" ng-style="{'background-color':'{{sr.color}}'}">
+  <div class="border-bottom" ng-repeat="sr in services" >
     <div class="container col-xxl-8 px-4 py-3">
       <div class="row {{sr.reverse}} align-items-center g-5 py-3">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="images/services/{{sr.img}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400"
-            height="auto" loading="lazy">
+          <img src="images/services/{{sr.img}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="auto" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3">{{sr.name}}</h1>
           <p class="lead">{{sr.description[1]}}</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="#!/service_detail/{{sr.name}}"><button type="button"
-                class="btn btn-outline-primary btn-md px-4">Know More</button></a>
+            <a href="service_detail/{{sr.name}}"><button type="button" class="btn btn-outline-primary btn-md px-4">Know More</button></a>
           </div>
         </div>
       </div>
@@ -48,21 +30,5 @@
   </div>
 
 
-
-  <!-- <div class="container col-xxl-8 px-4 py-2">
-    <div class="row align-items-center g-5 py-2">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="images/services/writing.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Technical Content Writing</h1>
-        <p class="lead">{{services[4].description[1]}}</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a href="#!/service_detail/{{services[4].name}}"><button type="button" class="btn btn-outline-primary btn-md px-4">Know More</button></a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
 </div>
+

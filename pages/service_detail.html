@@ -1,5 +1,5 @@
-<div ng-controller="serviceDetailctrl">
-  <section class="page-title bg-primary position-relative">
+<div ng-controller="serviceDetailctrl" >
+  <!-- <section class="page-title bg-primary position-relative">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -7,61 +7,50 @@
         </div>
       </div>
     </div>
-    <!-- background shapes -->
     <img src="images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
     <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
-  </section>
-
-  <section class="section position-relative">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{id}}</h2>
+  </section> -->
+  <div ng-style="{'background':'{{service.color}}'}" >
+    <div class="container col-xxl-8 px-4 py-4">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images/services/{{service.img}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" style="width: 400px; height:auto" loading="lazy">
         </div>
-        <div class="col-lg-10 mx-auto text-center mb-4">
-          <p class="font-secondary paragraph-lg text-dark">{{service.description[1]}} {{service.description[2]}}</p>
-        </div>
-
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="images/blog/post-5.jpg" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-              </h4>
-              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et
-                dolore magna aliqua.</p>
-              <a href="#!/blogsingle" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-              </h4>
-              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et
-                dolore magna aliqua.</p>
-              <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <article class="card shadow">
-            <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
-            <div class="card-body">
-              <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-              </h4>
-              <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et
-                dolore magna aliqua.</p>
-              <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-            </div>
-          </article>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3 {{service.text}}">{{service.name}}</h1>
+          <p class="lead {{service.text}} fw-normal">{{service.description[1]}}</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+
+  <section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-capitalize">{{id}}</h2>
+      </div>
+      <div class="col-lg-10 mx-auto text-center mb-4">
+        <p class="font-secondary paragraph-lg text-dark">{{service.description[1]}} {{service.description[2]}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" >
+    <div class="row" >
+      <div class="col-md-4 mb-4" ng-repeat="srvc in service.subSer" >
+        <div class="card bg-light border" style="min-height: 450px; ">
+          <div class="card-body text-center px-4 py-5">
+            <div>
+              <img ng-style="{'width':'{{service.img_size}}'}" src="images/services/{{srvc.img}}">
+            </div>
+            <h4 class="mb-4 mt-4 text-capitalize">{{srvc.name}}</h4>
+            <p>{{srvc.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 </div>

@@ -1,3 +1,3 @@
-app.controller('serviceCtrl', function($scope, localdb){
+app.controller('serviceCtrl', function($scope, localdb, $window){
 	$scope.services = localdb.services;
 })

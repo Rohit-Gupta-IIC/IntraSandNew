@@ -1,4 +1,5 @@
-app.controller('homeCtrl', function($scope, localdb){
+app.controller('homeCtrl', function($scope, localdb, $rootScope){
+    $scope.transitionState = $rootScope.transitionState;
 	$scope.services = localdb.services;
 
 	$('.testimonial-slider').slick({
@@ -12,3 +13,4 @@ app.controller('homeCtrl', function($scope, localdb){
 
 
  });
+
