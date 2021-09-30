@@ -7,7 +7,7 @@ app.service('localdb', function(){
                 img:"develop.png",
                 color:"#ffccc7",
                 description:[
-                    'We provide dynamic and static websites, blogs, landing pages, directories, and contact pages, as well as e-commerce, portfolio, homepages, magzine, and social media websites.',
+                    'We provide dynamic and static websites, blogs, landing pages, directories, and contact pages, as well as e-commerce, portfolio, homepages, magazine, and social media websites.',
                     'Portal, Animated, Rich Internet, Progressive, JavaScript Powered, Static, and Dynamic web apps, as well as Single and Multi-Page Applications, are all available.' ,
                     'To offer the highest quality output, we use cutting-edge technologies such as React JS, Angular JS, and Next JS.'
                 ],
@@ -18,7 +18,7 @@ app.service('localdb', function(){
                     },
                     {
                         name:'Wordpress Web Development',
-                        description:'Wordpress is the most well-known and widely used design programme. In terms of design, WordPress-based apps are inherently easy and adaptable. WordPress apps are used to develop W3C-compliant and SEO-friendly applications.'
+                        description:'WordPress is the most well-known and widely used design program. In terms of design, WordPress-based apps are inherently easy and adaptable. WordPress apps are used to develop W3C-compliant and SEO-friendly applications.'
                     },
                     {
                         name:'JavaScript Frameworks-based Web Development',
@@ -26,7 +26,7 @@ app.service('localdb', function(){
                     },
                     {
                         name:'eCommerce Development',
-                        description:'Ecommerce web applications, often known as electronic commerce or online commerce, refer to the purchase and sale of products or services over the internet, as well as the transmission of money and data to complete these transactions. To mention a few benefits, ecommerce applications assist to promote brand awareness, improve customer experience, and increase visitor engagement.'
+                        description:'eCommerce web applications, often known as electronic commerce or online commerce, refer to the purchase and sale of products or services over the internet, as well as the transmission of money and data to complete these transactions. To mention a few benefits, eCommerce applications assist to promote brand awareness, improve customer experience, and increase visitor engagement.'
                     }
                 ]
             },
@@ -37,8 +37,8 @@ app.service('localdb', function(){
                 img:"design.png",
                 color:"#e6fffb",
                 description:[
-                "We focus on providing high-quality, user-friendly, SEO-friendly, straightforward, and professional web design services.",
-                "Static Page Layout, Dynamic Website Layout, Fixed Design Layout, Responsive Design Layout, Liquid or Fluid Design Layout, and Single Page Design Layout are some of the services we provide."
+                    "We focus on providing high-quality, user-friendly, SEO-friendly, straightforward, and professional web design services.",
+                    "Static Page Layout, Dynamic Website Layout, Fixed Design Layout, Responsive Design Layout, Liquid or Fluid Design Layout, and Single Page Design Layout are some of the services we provide."
                 ],
                 subSer:[
                     {
@@ -47,19 +47,19 @@ app.service('localdb', function(){
                     },
                     {
                         name:"Dynamic Web Design",
-                        description:"The rapidly digitalized generation spend the majority of their time perusing the web. And the high-speed connectivity makes it relaxing for everyone. To save time and effort, we utilise smart web Intel in dynamic web design to provide a healthy and stress-free experience throughout the website."
+                        description:"The rapidly digitalized generation spends the majority of their time perusing the web. And the high-speed connectivity makes it relaxing for everyone. To save time and effort, we utilize smart web Intel in dynamic web design to provide a healthy and stress-free experience throughout the website."
                     },
                     {
                         name:"Static Web Design",
-                        description:"A large number of users want personalised company profiles in order to have their name in the market and meet the needs of customers. Static site design is a simple and excellent option. The beauty of business is its simplicity, which is simple yet effective."
+                        description:"A large number of users want personalized company profiles to have their name in the market and meet the needs of customers. Static site design is a simple and excellent option. The beauty of business is its simplicity, which is simple yet effective."
                     },
                     {
                         name:"Web Portal Design",
-                        description:"A business cannot function without employees. To keep relevant data, the firm need management skills and an application. Online services provide you with a spacefic place on the internet for storing information that employees may access from anywhere over the internet. To ensure that these arrangements are met, we additionally provide Web Portal Service for clients who operate in the backend."
+                        description:"A business cannot function without employees. To keep relevant data, the firm needs management skills and an application. Online services provide you with a specific place on the internet for storing information that employees may access from anywhere over the internet. To ensure that these arrangements are met, we additionally provide Web Portal Service for clients who operate in the back"
                     },
                     {
                         name:"Custom Web design",
-                        description:"Because no two businesses are the same, why should they have the same sort of website? To suit the needs of every sort of user, different clients demand bespoke, personalised web designs. In order to do so, we push ourselves to be the best."
+                        description:"Because no two businesses are the same, why should they have the same sort of website? To suit the needs of every sort of user, different clients demand bespoke, personalized web designs. In order to do so, we push ourselves to be the best."
                     },
                 ]
             },
@@ -76,15 +76,15 @@ app.service('localdb', function(){
                 subSer:[
                     {
                         name:"Institutions Management Systems",
-                        description:"It is designed to work with the Microsoft Windows operating system. All 32-bit Windows apps are compatible with both 32-bit and 64-bit versions of Windows. All 64-bit programmes require 64-bit Windows, which is the default operating system on new Windows PCs and tablets. Because Windows is a closed operating system, it is simple to create high-end data-secured apps."
+                        description:"We automate an institute's activities such as Student Admission Management, Fee Management, Attendance Management, Examination Management, Human Resource Management, Time Table Management, Salary Management, and Records & Profiles Management by utilising cutting-edge technology."
                     },
                     {
                         name:"Employee Management Systems",
-                        description:"content missing"
+                        description:"An employee management system is a platform where all work-related, as well as vital personal information of an employee, are securely kept and maintained. You can manage administrative tasks more easily and quickly if you use this system."
                     },
                     {
                         name:"Restaurant Management Software",
-                        description:"content missing"
+                        description:"A restaurant management system is a catch-all phrase for software that aids in the efficiency of foodservice operations. It combines the best features of standard POS (Point of Sale) systems with capabilities that accept table reservations, streamline inventory management, handles invoicing, give actionable data, and aid with marketing efforts like CRM."
                     },
                 ]
             },
@@ -95,9 +95,9 @@ app.service('localdb', function(){
                 img:"mobile.png",
                 color:"#f4ffb8",
                 description:[
-                    "We offer services such as Android, iOS, and cross-platform applications. We specialise in eCommerce, business management, and the development of custom applications.",
+                    "We offer services such as Android, iOS, and cross-platform applications. We specialize in eCommerce, business management, and the development of custom applications.",
                     "It's becoming popular to have a business application on your mobile phone to help you do business in the easiest way possible.",
-                    "Mobile applications are critical in terms of market expansion. The increased usage of mobile phones and laptop computers has resulted from the digitalization of every sector. Keeping the same phenomena in mind, we developed and created the finest digital solution and support for your organisation."
+                    "Mobile applications are critical in terms of market expansion. The increased usage of mobile phones and laptop computers has resulted from the digitalization of every sector. Keeping the same phenomena in mind, we developed and created the finest digital solution and support for your organization."
                 ],
                 subSer:[
                     {
@@ -127,16 +127,16 @@ app.service('localdb', function(){
                 ],
                 subSer:[
                     {
-                        name:"Home Automation",
-                        description:"content missing"
+                        name:"Smart Homes",
+                        description:"A smart home is a handy house setup in which appliances and equipment may be automatically managed remotely using a mobile or other networked device from anywhere with an internet connection. Devices in a smart home are networked through the internet, allowing the user to remotely control services such as home security, heating, lighting, and a home theatre."
                     },
                     {
-                        name:"Office Automation",
-                        description:"content missing"
+                        name:"Smart Workplace",
+                        description:"A smart workplace employs technology to assist workers to operate more successfully and efficiently, whether they work in the office or remotely, and interact with their in-office colleagues. Smart offices utilize linked technology and analytics to learn how to best serve employees in order for them to work successfully."
                     },
                     {
                         name:"Customized Hardwares",
-                        description:"content missing"
+                        description:"Hardware may be found all around the world, including your device, which has five different types of hardware devices ranging in price from less than a dollar to a few thousand dollars. We create application-specific hardware devices to meet all needs."
                     }
                 ]
             },
