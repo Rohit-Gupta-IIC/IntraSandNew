@@ -102,15 +102,15 @@ app.service('localdb', function(){
                 subSer:[
                     {
                         name:"eCommerce App Development",
-                        description:"content missing"
+                        description:"The purchase and selling of items or services via the internet using a portable device, as well as the transmission of money and data to accomplish these transactions, are all examples of eCommerce mobile apps. Mobile eCommerce accounts for more than 73 percent of total global sales."
                     },
                     {
                         name:"Business Management App",
-                        description:"content missing"
+                        description:"One of the most notable benefits of mobile applications for business is that it raises consumer knowledge and identification of your brand, allowing for more effective communication. This consistent engagement with your target market plants the seeds of trust and belief between you and your consumers."
                     },
                     {
                         name:"Custom App Development",
-                        description:"content missing"
+                        description:"Mobile applications are increasingly utilised for almost every area of life, from setting alarms to doing high-end graphic editing. Some apps are employed for security, while others require a simple user interface and minimal CPU use.t missing"
                     }
                 ]
             },
